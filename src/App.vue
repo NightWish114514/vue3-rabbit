@@ -3,7 +3,13 @@
 </script>
 
 <template>
-  <el-button type="success">Success</el-button>
+  <!-- 一级路由出口 -->
+  <router-view />
+  <!-- <div class="test">测试</div> -->
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+  // .test{
+  //   color: $xtxColor;
+  // }
+</style>
